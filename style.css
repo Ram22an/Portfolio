@@ -168,7 +168,6 @@ section {
   gap: 5rem;
   height: 80vh;
 }
-
 .section__pic-container {
   display: flex;
   height: 400px;
@@ -572,4 +571,27 @@ body.dark-mode .hamburger-icon span {
 
 .menu-links .toggle-btn:hover {
   border-bottom-color: rgb(85, 85, 85);
+}
+
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1000; /* Push behind everything */
+  pointer-events: none; /* Allow clicking through */
+  filter: blur(6px);
+}
+
+/* Optional dark overlay for better contrast */
+.video-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.53); /* Adjust opacity if needed */
+  z-index: -999;
 }
