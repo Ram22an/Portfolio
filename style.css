@@ -9,6 +9,8 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #121212;
+  color: white;
 }
 
 html {
@@ -16,7 +18,7 @@ html {
 }
 
 p {
-  color: rgb(85, 85, 85);
+  color: rgb(170, 170, 170);
 }
 
 /* TRANSITION */
@@ -46,20 +48,21 @@ nav {
 }
 
 a {
-  color: black;
+  color: white;
   text-decoration: none;
-  text-decoration-color: white;
+  text-decoration-color: black;
 }
 
 a:hover {
-  color: grey;
+  color: lightgray;
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  text-decoration-color: rgb(70, 70, 70);
 }
 
 .logo {
   font-size: 2rem;
+  color: white;
 }
 
 .logo:hover {
@@ -89,7 +92,7 @@ a:hover {
 .hamburger-icon span {
   width: 100%;
   height: 2px;
-  background-color: black;
+  background-color: white;
   transition: all 0.3 ease-in-out;
 }
 
@@ -97,7 +100,7 @@ a:hover {
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: white;
+  background-color: black;
   width: fit-content;
   max-height: 0;
   overflow: hidden;
@@ -109,7 +112,7 @@ a:hover {
   padding: 10px;
   text-align: center;
   font-size: 1.5rem;
-  color: black;
+  color: white;
   text-decoration: none;
   transition: all 0.3 ease-in-out;
 }
@@ -132,18 +135,6 @@ a:hover {
 
 .hamburger-icon.open span:last-child {
   transform: rotate(-45deg) translate(10px, -5px);
-}
-
-.hamburger-icon span:first-child {
-  transform: none;
-}
-
-.hamburger-icon span:first-child {
-  opacity: 1;
-}
-
-.hamburger-icon span:first-child {
-  transform: none;
 }
 
 /* SECTIONS */
@@ -183,6 +174,7 @@ section {
 
 .section__text p {
   font-weight: 600;
+  color: white;
 }
 
 .section__text__p1 {
@@ -197,6 +189,7 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
+  color: white;
 }
 
 #socials-container {
@@ -211,6 +204,7 @@ section {
 .icon {
   cursor: pointer;
   height: 2rem;
+  filter: invert(1);
 }
 
 /* BUTTONS */
@@ -227,26 +221,22 @@ section {
   padding: 1rem;
   width: 8rem;
   border-radius: 2rem;
+  color: white;
 }
 
 .btn-color-1,
 .btn-color-2 {
-  border: rgb(53, 53, 53) 0.1rem solid;
-}
-
-.btn-color-1:hover,
-.btn-color-2:hover {
-  cursor: pointer;
+  border: rgb(200, 200, 200) 0.1rem solid;
 }
 
 .btn-color-1,
 .btn-color-2:hover {
-  background: rgb(53, 53, 53);
-  color: white;
+  background: white;
+  color: black;
 }
 
 .btn-color-1:hover {
-  background: rgb(0, 0, 0);
+  background: lightgray;
 }
 
 .btn-color-2 {
@@ -254,11 +244,7 @@ section {
 }
 
 .btn-color-2:hover {
-  border: rgb(255, 255, 255) 0.1rem solid;
-}
-
-.btn-container {
-  gap: 1rem;
+  border: rgb(0, 0, 0) 0.1rem solid;
 }
 
 /* ABOUT SECTION */
@@ -291,27 +277,17 @@ section {
   position: absolute;
   right: -5rem;
   bottom: 2.5rem;
+  filter: invert(1);
 }
 
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: white;
+  background: black;
   border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
+  border: rgb(200, 200, 200) 0.1rem solid;
   text-align: center;
-}
-
-.section-container {
-  gap: 4rem;
-  height: 80%;
-}
-
-.section__pic-container {
-  height: 400px;
-  width: 400px;
-  margin: auto 0;
+  color: white;
 }
 
 /* EXPERIENCE SECTION */
@@ -321,7 +297,7 @@ section {
 }
 
 .experience-sub-title {
-  color: rgb(85, 85, 85);
+  color: white;
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
@@ -340,6 +316,7 @@ section {
   flex-direction: row;
   gap: 2.5rem;
   justify-content: space-around;
+  color: white;
 }
 
 article {
@@ -349,10 +326,6 @@ article {
   gap: 0.5rem;
 }
 
-article .icon {
-  cursor: default;
-}
-
 /* PROJECTS SECTION */
 
 #projects {
@@ -360,24 +333,25 @@ article .icon {
 }
 
 .color-container {
-  border-color: rgb(163, 163, 163);
-  background: rgb(250, 250, 250);
+  border-color: rgb(100, 100, 100);
+  background: rgb(30, 30, 30);
 }
 
 .project-img {
   border-radius: 2rem;
   width: 90%;
   height: 90%;
+  filter: brightness(0.8);
 }
 
 .project-title {
   margin: 1rem;
-  color: black;
+  color: white;
 }
 
 .project-btn {
-  color: black;
-  border-color: rgb(163, 163, 163);
+  color: white;
+  border-color: rgb(100, 100, 100);
 }
 
 /* CONTACT */
@@ -393,11 +367,11 @@ article .icon {
   display: flex;
   justify-content: center;
   border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
-  background: (250, 250, 250);
+  border: rgb(100, 100, 100) 0.1rem solid;
+  background: black;
   margin: 2rem auto;
   padding: 0.5rem;
+  color: white;
 }
 
 .contact-info-container {
@@ -412,14 +386,6 @@ article .icon {
   font-size: larger;
 }
 
-.contact-icon {
-  cursor: default;
-}
-
-.email-icon {
-  height: 2.5rem;
-}
-
 /* FOOTER SECTION */
 
 footer {
@@ -429,4 +395,17 @@ footer {
 
 footer p {
   text-align: center;
+  color: white;
+}
+
+#background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.5; /* optional: dim the video */
+  pointer-events: none; /* ensures it doesn't interfere with clicks */
 }
