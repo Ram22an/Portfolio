@@ -582,7 +582,7 @@ body.dark-mode .hamburger-icon span {
   object-fit: cover;
   z-index: -1000; /* Push behind everything */
   pointer-events: none; /* Allow clicking through */
-  filter: blur(6px);
+  filter: blur(10px);
 }
 
 /* Optional dark overlay for better contrast */

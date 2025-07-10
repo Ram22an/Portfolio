@@ -14,12 +14,9 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
-  <body>
+  <body class="dark-mode">
     <video autoplay muted loop playsinline class="background-video">
-      <source
-        src="./assets/vecteezy_game-over-retro-text-animation-loop_67478533.mp4"
-        type="video/mp4"
-      />
+      <source src="./assets/gameover-flicker.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
     <nav id="desktop-nav">
@@ -30,12 +27,10 @@
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li>
-            <button id="theme-toggle" class="toggle-btn">🌙</button>
-          </li>
         </ul>
       </div>
     </nav>
+
     <nav id="hamburger-nav">
       <div class="logo">Raman Soni</div>
       <div class="hamburger-menu">
@@ -49,12 +44,10 @@
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-          <li>
-            <button id="theme-toggle-mobile" class="toggle-btn">🌙</button>
-          </li>
         </div>
       </div>
     </nav>
+
     <section id="profile">
       <div class="section__pic-container">
         <img src="./assets/profile-pic.png" alt="Raman Soni profile picture" />
@@ -201,17 +194,6 @@
                   <p>Beginner</p>
                 </div>
               </article>
-              <!-- <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Python</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article> -->
               <article>
                 <img
                   src="./assets/checkmark.png"
