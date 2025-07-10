@@ -4,26 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link
-      rel="shortcut icon"
-      href="favicon.ico"
-      sizes="128x128"
-      type="image/x-icon"
-    />
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
-  <body class="dark-mode">
-    <video autoplay muted loop playsinline class="background-video">
-      <source
-        src="./assets/vecteezy_nature-overlay-videos_50034187.mp4"
-        type="video/mp4"
-      />
-      Your browser does not support the video tag.
-    </video>
+  <body>
     <nav id="desktop-nav">
-      <div class="logo">Raman Soni</div>
+      <div class="logo">John Doe</div>
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
@@ -33,9 +20,8 @@
         </ul>
       </div>
     </nav>
-
     <nav id="hamburger-nav">
-      <div class="logo">Raman Soni</div>
+      <div class="logo">John Doe</div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
@@ -50,21 +36,20 @@
         </div>
       </div>
     </nav>
-
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/NewAboutPic.jpg" alt="Raman Soni profile picture" />
+        <img src="./assets/profile-pic.png" alt="John Doe profile picture" />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Raman Soni</h1>
-        <p class="section__text__p2">Game Developer</p>
+        <h1 class="title">John Doe</h1>
+        <p class="section__text__p2">Frontend Developer</p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/RamanSoni_GameDeveloper.pdf')"
+            onclick="window.open('./assets/resume-example.pdf')"
           >
-            Download Resume
+            Download CV
           </button>
           <button class="btn btn-color-1" onclick="location.href='./#contact'">
             Contact Info
@@ -75,13 +60,13 @@
             src="./assets/linkedin.png"
             alt="My LinkedIn profile"
             class="icon"
-            onclick="location.href='https://www.linkedin.com/in/raman-soni-09764524a'"
+            onclick="location.href='https://linkedin.com/'"
           />
           <img
             src="./assets/github.png"
             alt="My Github profile"
             class="icon"
-            onclick="location.href='https://github.com/Ram22an'"
+            onclick="location.href='https://github.com/'"
           />
         </div>
       </div>
@@ -95,7 +80,6 @@
             src="./assets/about-pic.png"
             alt="Profile picture"
             class="about-pic"
-            id="about-pic"
           />
         </div>
         <div class="about-details-container">
@@ -107,9 +91,7 @@
                 class="icon"
               />
               <h3>Experience</h3>
-              <p class="MT3">
-                3 months <br />Game Developer Intern at Bean Bot
-              </p>
+              <p>2+ years <br />Frontend Development</p>
             </div>
             <div class="details-container">
               <img
@@ -118,33 +100,17 @@
                 class="icon"
               />
               <h3>Education</h3>
-              <p>
-                B.Tech Computer Science<br />Jaypee University of Engineering
-                and Technology
-              </p>
-            </div>
-            <div class="details-container">
-              <img
-                src="./assets/education.png"
-                alt="Education icon"
-                class="icon"
-              />
-              <h3>Education</h3>
-              <p class="MT3">Higher Secondary<br />Delhi Public School</p>
+              <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
             </div>
           </div>
           <div class="text-container">
             <p>
-              Ever since my childhood, I have been a passionate about game
-              development. I am able to create immersive experiences using
-              Unity. I have worked on a range of projects such as mobile and 3d
-              games that are part of my portfolio and I consider myself a Player
-              Movement, Multiplayer Networking and Game Aesthetics Professional.
-              I actively develop during the development cycle by adding
-              technologies such as ScriptableObjects and advanced input systems.
-              Given my experience in Programming, Problem Solving and Quality
-              Assurance, I am able to design playful and novel gaming
-              experiences.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
+              reprehenderit et laborum, rem, dolore eum quod voluptate
+              exercitationem nobis, nihil esse debitis maxime facere minus sint
+              delectus velit in eos quo officiis explicabo deleniti dignissimos.
+              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
+              reiciendis ea magnam? Nulla, impedit fuga!
             </p>
           </div>
         </div>
@@ -158,11 +124,11 @@
     </section>
     <section id="experience">
       <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Skills</h1>
+      <h1 class="title">Experience</h1>
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container">
-            <h2 class="experience-sub-title">Game Development</h2>
+            <h2 class="experience-sub-title">Frontend Development</h2>
             <div class="article-container">
               <article>
                 <img
@@ -171,7 +137,29 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Unity</h3>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SASS</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -182,36 +170,36 @@
                   class="icon"
                 />
                 <div>
-                  <h3>C#</h3>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TypeScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Material UI</h3>
                   <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Photon Fusion 2</h3>
-                  <p>Beginner</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Blender</h3>
-                  <p>Beginner</p>
                 </div>
               </article>
             </div>
           </div>
           <div class="details-container">
-            <h2 class="experience-sub-title">Problem Solving</h2>
+            <h2 class="experience-sub-title">Frontend Development</h2>
             <div class="article-container">
               <article>
                 <img
@@ -220,7 +208,18 @@
                   class="icon"
                 />
                 <div>
-                  <h3>C++</h3>
+                  <h3>PostgreSQL</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -231,18 +230,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Python</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>C</h3>
+                  <h3>Express JS</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -281,19 +269,19 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Ninja Square</h2>
+            <h2 class="experience-sub-title project-title">Project One</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Ram22an/Ninja_Square.git'"
+                onclick="location.href='https://github.com/'"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://play.google.com/store/apps/details?id=com.BeanBot.NinjaCats'"
+                onclick="location.href='https://github.com/'"
               >
-                Download
+                Live Demo
               </button>
             </div>
           </div>
@@ -305,19 +293,19 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Zombie Crasher</h2>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Ram22an/Zombie-Crasher.git'"
+                onclick="location.href='https://github.com/'"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://drive.google.com/drive/folders/1mxbZ5oSjlUOrsKyNReO2oLJIMD9SJ9_E?usp=drive_link'"
+                onclick="location.href='https://github.com/'"
               >
-                Download
+                Live Demo
               </button>
             </div>
           </div>
@@ -329,19 +317,19 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Maze Runner</h2>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Ram22an/Maze_Runner.git'"
+                onclick="location.href='https://github.com/'"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://drive.google.com/drive/folders/1zISGA5RHYnofR5tRQ3dpOL1Lzyq7_xeF?usp=drive_link'"
+                onclick="location.href='https://github.com/'"
               >
-                Download
+                Live Demo
               </button>
             </div>
           </div>
@@ -364,9 +352,7 @@
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
-          <p>
-            <a href="mailto:soniraman2003@gmail.com">soniraman2003@gmail.com</a>
-          </p>
+          <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
         </div>
         <div class="contact-info-container">
           <img
@@ -374,11 +360,7 @@
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p>
-            <a href="https://www.linkedin.com/in/raman-soni-09764524a"
-              >LinkedIn</a
-            >
-          </p>
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
         </div>
       </div>
     </section>
@@ -393,7 +375,7 @@
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2025 Raman Soni. All Rights Reserved.</p>
+      <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
   </body>
