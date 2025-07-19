@@ -426,3 +426,8 @@ footer p {
   background: rgba(0, 0, 0, 0.4); /* dark overlay */
   z-index: -1;
 }
+
+#text-containerParagraph {
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+}
