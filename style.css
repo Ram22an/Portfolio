@@ -427,7 +427,7 @@ footer p {
   z-index: -1;
 }
 
-#text-containerParagraph {
+.text-containerParagraph {
   font-weight: 900;
   color: rgb(255, 255, 255);
 }
